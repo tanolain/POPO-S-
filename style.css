@@ -8,6 +8,7 @@ body {
   color: #505962;
 }
 
+
 .offset:before {
    display:block;
    content: "";
@@ -18,6 +19,7 @@ body {
 }
  /*---Navigation--*/
  .navbar {
+  background-image:url(img src="">)
       text-transform: uppercase;
       font-weight: 700
       font-size: .9rem;
@@ -41,6 +43,7 @@ padding-top: .8rem;
 }
 /*--- Landing page --*/
 .home-inner {
+ 
   background-image: url(img/ok.jpg)
 
 }
@@ -224,3 +227,5 @@ font-size: 1rem;
   display: block;
   margin: 0 auto;
 }
+
+
