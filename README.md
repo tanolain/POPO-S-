@@ -1,4 +1,4 @@
-# POPO'S 炒饭+ <for more here is my link https://github.com/tanolain/POPO-S-
+# POPO'S 炒饭+ <for more here is my link https://tanolain.github.io/POPO-S-/
  ## INTRODUCTION
 It’s a website that will be connecting Chinese parents and Chinese middle school 
 The Website will be displaying the different menu of food and beverage that will be available in the coming week so that  the parents of children will be able to order for their children  according to their choices 
@@ -43,4 +43,4 @@ Alternate suggestions on page structure are welcome:
 * week 14: Upgrade Ops based
 * week 15: Final release
 
-<for more here is my link https://github.com/tanolain/POPO-S-
+<for more here is my link https://tanolain.github.io/POPO-S-/
