@@ -1,0 +1,18 @@
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+    
+      <div class="text-center"> <h3>  User Details</h3></div>
+    <h3>Name: <span style="color:black"><%= user.name %></span></h3>
+    <h3>Email: <span style="color:black"><%= user.email %></span></h3>
+      
+    <a href="/edit" class="btn btn-primary btn-block mb-1" style="margin: 2px;"" >Edit</a>
+    <form action="/delete" method="post">
+        <input type="text" class="form-control" name="id" value="<%= user._id %>" hidden>
+        <button type="submit" class="btn btn-primary btn-block mb-1" style="margin: 2px;"> Delete Account </button>
+        </form>
+                                                                           
+    <a href="https://popos.glitch.me" class="btn btn-info">Go to site</a>
+    <a href="/users/logout" class="btn btn-primary btn-block mb-1" style="margin: 2px;"" >Logout</a>
+  
+    </div>

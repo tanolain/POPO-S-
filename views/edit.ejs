@@ -1,0 +1,28 @@
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+    
+    <div>
+        <h3 >Change Credentials</h3>
+        <h3>Current Name: <span style="color:red"><%= user.name %></span></h3>
+        <h3>Current Email: <span style="color:red"><%= user.email %></span></h3>
+    </div>
+      <div class="card card-body">
+    <form action="/edit" method="POST" style="margin: 3% 44% 3% 0%;">
+        <div class="form-row">
+          <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" id="name" required placeholder="Edit Your Name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+            <input type="email" name="email" class="form-control" id="email" required placeholder="Edit Your Email">
+        </div>
+        <input type="text" name="id" id="id" value="<%= user._id %>" hidden>
+        
+      <div class="form-row">
+            <button type="submit" class="btn btn-primary btn-circle"> Save </button>
+        </div>
+           <a href="/setting" class="btn btn-primary btn-circle" style="margin: 2px;"" >Cancel</a>
+    </form>
+      </div>
+</div>
